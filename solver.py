@@ -61,7 +61,7 @@ def puzzle(a):
             else :
                 print(str(a[i][j]) + " ", end="")
 
-
+#  finding empty cells which have 0
 def find_empty(a):
     for i in range(len(a)):
         for j in range(len(a[0])):
