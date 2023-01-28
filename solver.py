@@ -47,7 +47,7 @@ def valid(a, num, pos):
                 return False
     return True
 
-
+# making puzzle for better understanding
 def puzzle(a):
     for i in range(len(a)):
         if i % 3 == 0 and i != 0:
