@@ -27,6 +27,8 @@ def solve(a):
 
     return False
 
+
+# finding the valid row and column
 def valid(a, num, pos):
     #check row
     for i in range(len(a[0])):
