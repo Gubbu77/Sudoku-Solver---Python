@@ -23,13 +23,13 @@ def solve(a):
                 return True
             a[row][col] = 0
     return False
+
 # finding the valid row and column
 def valid(a, num, pos):
     #check row
     for i in range(len(a[0])):
         if a[pos[0]][i] == num and pos[1] != i:
             return False
-
     for i in range(len(a)):
         if a[i][pos[1]] == num and pos[0] != i:
             return False
